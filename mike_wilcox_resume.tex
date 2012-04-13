@@ -1,0 +1,90 @@
+\documentclass{resume}
+
+\usepackage{amssymb}
+\usepackage{url}
+
+\renewcommand{\categoryfont}{\sc}
+
+%
+% set the space used for category titles here:
+% use the same value for oddsidemargin and marginparwidth [the latter 
+% 		will be reset to account for marginparsep]
+% 
+\setlength{\oddsidemargin}{1.1in}
+\setlength{\marginparwidth}{1.1in}
+% 
+% calculate other dimensions [textwidth and evensidemargin] 
+% in function of oddsidemargin and marginparwidth: 
+% would be nicer to put in the class file...
+%
+\addtolength{\marginparwidth}{-\marginparsep}
+ \setlength{\evensidemargin}{\oddsidemargin}
+ \setlength{\textwidth}{\paperwidth}
+ \addtolength{\textwidth}{-2in}
+ \addtolength{\textwidth}{-2\oddsidemargin}
+ \addtolength{\textwidth}{\marginparwidth}
+ \addtolength{\textwidth}{\marginparsep}
+%
+%
+\setlength{\topmargin}{-0.5in}
+%
+%
+\renewcommand{\labelcitem}{$\rhd$}
+\renewcommand{\labelitemi}{$\cdot$}
+\newcommand{\first}{$1^{\mbox{\scriptsize st}}$\ }
+\newcommand{\second}{$2^{\mbox{\scriptsize nd}}$\ }
+\newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
+
+\author{~~~~~~Michael J. Wilcox}
+% ------ Address --------------------------------------------------------
+
+\address{
+	14 Mill Pond Road\\
+	Washington, NJ 07882\\
+	Mobile +1 (908) 235-6636\\
+	 \mbox{\small\tt mwilcox56@Gmail.com}\\
+	 \mbox{\small\tt http://mjwilcox.net}}
+
+\begin{document}
+\maketitle
+
+% ------- Education ---------------------------------------------------
+
+\begin{category}{Education}
+\citem{Rutgers University}, New Brunswick, NJ.\\
+B.S. in Computer Science,  GPA 3.00 of 4.00, May 2012.
+\end{category}
+
+\begin{category}{Skills}
+\citemnobullet 
+C, C++, Java, Python, Ruby, PHP, Javascript, HTML, CSS, SQL, Git, Vim, \LaTeX.
+\end{category}
+
+\begin{category}{Operating Systems}
+\citemnobullet
+Linux, Mac OS X, Windows.\\
+\end{category}
+
+\begin{category}{Relevant Courses}
+\citemnobullet
+Computer Architecture, Database Management, Data Structures, Programming Principles.
+\end{category}
+
+\begin{category}{Work Experience}
+\citem{Junior Web Developer}, Fifth Room Creative;
+March 2011--present.\\
+Assisted with development of websites in Drupal and PHP. Launched website that enabled conference attendees to login and view agenda of conference. Became familiar with the Drupal CMS while helping to maintain and update website. I also consistently wrote HTML and CSS. %
+\end{category}
+
+\begin{category}{Projects}
+\citem{Stock Recommendation Website}\\
+This project involved writing multiple web scrapers in Python that gathered stock recommendations from the web. Then, I optimized SQL code to insert a large amount of stock recommendation data into a MySQL database. Finally, I helped to create and launch a website which displayed the stock information from the MySQL database in a concise, user-friendly, and efficient manner.
+\end{category}
+
+% -------- Reference --------------------------------------------
+
+\begin{category}{References, Publications} 
+\citemnobullet Available on request.
+\end{category}
+
+\end{document}
