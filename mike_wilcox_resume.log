@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.4.13)  29 APR 2012 09:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.8.22)  26 AUG 2012 21:48
 entering extended mode
  %&-line parsing enabled.
 **mike_wilcox_resume
@@ -27,8 +27,14 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \titlewidth=\skip43
 \addresswidth=\skip44
+) (./tabto.sty
+\CurrentLineWidth=\dimen103
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+(./hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language4
+LaTeX Info: Redefining \_ on input line 43.
+) (/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
@@ -57,56 +63,96 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Overfull \hbox (272.25728pt too wide) in paragraph at lines 50--50
+| \OT1/cmr/m/n/10 mwilcox56@gmail.com  
+ []
+
+
+Overfull \hbox (272.06668pt too wide) in paragraph at lines 50--50
+| \OT1/cmr/m/n/10 http://mikewilcox.nfshost.com  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Overfull \hbox (9.65979pt too wide) in paragraph at lines 76--78
+[]\OT1/cmr/m/n/10 Artificial In-tel-li-gence (cur-rent), Com-puter Ar-chi-tec-t
+ure, Prin-ci-ples of Database Man-age-ment,
+ []
+
+
+Overfull \hbox (7.35423pt too wide) in paragraph at lines 76--78
+\OT1/cmr/m/n/10 Data Struc-tures, De-sign and Anal-y-sis of Com-puter Al-go-rit
+hms (cur-rent), Dis-crete Struc-tures
+ []
+
+
+Overfull \hbox (5.9654pt too wide) in paragraph at lines 76--78
+\OT1/cmr/m/n/10 I, Dis-crete Struc-tures II, In-ter-net Tech-nol-ogy, In-tro-du
+c-tory Java Pro-gram-ming, In-tro-duc-tion
+ []
+
+
+Overfull \hbox (2.93771pt too wide) in paragraph at lines 76--78
+\OT1/cmr/m/n/10 Cal-cu-lus, Pro-gram-ming Prin-ci-ples, Soft-ware Method-ol-ogy
+ (cur-rent), Sys-tems Pro-gram-ming
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-
+Overfull \hbox (5.73384pt too wide) in paragraph at lines 81--84
+\OT1/cmr/m/n/10 Custom Word-press De-vel-op-ment. In-te-grated client de-vel-op
+-ment re-quire-ments into a friendly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./mike_wilcox_resume.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+[2] (./mike_wilcox_resume.aux) ) 
 Here is how much of TeX's memory you used:
- 613 strings out of 495061
- 6758 string characters out of 1182621
- 53956 words of memory out of 3000000
- 3843 multiletter control sequences out of 15000+50000
- 6721 words of font info for 27 fonts, out of 3000000 for 9000
+ 668 strings out of 495061
+ 7349 string characters out of 1182621
+ 56016 words of memory out of 3000000
+ 3891 multiletter control sequences out of 15000+50000
+ 7074 words of font info for 28 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 29i,4n,24p,319b,162s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
-r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
-f-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb>
-Output written on mike_wilcox_resume.pdf (1 page, 94102 bytes).
+ 29i,4n,24p,481b,174s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/symbols/msam10.pfb>
+Output written on mike_wilcox_resume.pdf (2 pages, 106032 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,6 @@
 \documentclass{resume}
+\usepackage{tabto}
+\usepackage[none]{hyphenat}
 
 \usepackage{amssymb}
 \usepackage{url}
@@ -36,34 +38,33 @@
 \newcommand{\third}{$3^{\mbox{\scriptsize rd}}$\ }
 
 \author{~~~~~~Michael J. Wilcox}
-% ------ Address --------------------------------------------------------
+% ------ Address -------------------------------------------------------
 
 \address{
-	14 Mill Pond Road\\
-	Washington, NJ 07882\\
+	14 Mill Pond Road \tabto{13cm} mwilcox56@gmail.com\\
+	Washington, NJ 07882 \tabto{11.73cm} http://mikewilcox.nfshost.com\\
 	908 235 66360
 	}
-
-
 
 \begin{document}
 \maketitle
 
 \begin{category}{Objective}
 \citemnobullet
-To obtain a summer job as a computer programmer.
+To obtain a full-time job as a computer programmer.
 \end{category}
 
 % ------- Education ---------------------------------------------------
 
 \begin{category}{Education}
 \citem{Rutgers University}, New Brunswick, NJ\\
-B.S. in Computer Science, expected graduation December 2012.
+B.S. in Computer Science, expected graduation December 2012.\\
+Major GPA 3.12
 \end{category}
 
 \begin{category}{Skills}
 \citemnobullet 
-C, C++, Java, Python, Ruby, PHP, Javascript, HTML, CSS, SQL, Git, Vim, \LaTeX.
+C, C++, Java, Python, Ruby, PHP, Javascript, HTML, CSS, SQL, Wordpress, Apache, Git, Vim, Maple, \LaTeX, Scheme, Prolog.
 \end{category}
 
 \begin{category}{Operating Systems}
@@ -73,13 +74,13 @@ Ubuntu, UNIX, Mac OS X, Windows.\\
 
 \begin{category}{Relevant Courses}
 \citemnobullet
-Computer Architecture, Principles of Database Management, Data Structures, Discrete Structures I, Discrete Structures II, Introductory Java Programming, Programming Principles.\\
+Artificial Intelligence (current), Computer Architecture, Principles of Database Management, Data Structures, Design and Analysis of Computer Algorithms (current), Discrete Structures I, Discrete Structures II, Internet Technology, Introductory Java Programming, Introduction to Computer Graphics (current), Introduction to Imaging and Multimedia, Multivariable Calculus, Programming Principles, Software Methodology (current), Systems Programming (current).\\
 \end{category}
 
 \begin{category}{Work Experience}
 \citem{Junior Web Developer}, Fifth Room Creative;
-March 2011--present.\\
-Assisted with development of websites in Drupal and PHP. Launched website that enabled conference attendees to login and view agenda of conference. Became familiar with the Drupal CMS while helping to maintain and update website. Wrote HTML and CSS daily. %
+March 2011--July 2012.\\
+Custom Wordpress Development. Integrated client development requirements into a friendly user maintainable Wordpress website. Worked both on backend and frontend development using Javascript, PHP, SQL, HTML, and CSS. Implemented Google Maps web app that gave customer real time visual map data of the company distribution centers across the globe using the Google Maps API.%
 
 \citem{Web Developer}, Washington Township;
 July 2009--May 2011.\\
@@ -91,12 +92,12 @@ Worked in company IT help center installing operating systems on employee machin
 
 \citem{Intern}, McNeil Consumer;
 May 2005--August 2005.\\
-Helped with updates to company intranet website in Dreamweaver. %
+Helped with updates to company intranet website in Dreamweaver. Assisted with project to migrate database servers.%
 \end{category}
 
 \begin{category}{Projects}
 \citem{Stock Recommendation Website}\\
-Wrote two in Python programming language that scraped stock recommendations from a forum. Re-factored Java code to load a large CSV file into a database writing all the logic in SQL. Created, and launched a website written mainly in PHP which displays the information stored in a MySQL database. \\
+Wrote two web scraping programs in Python that scraped stock recommendations from a forum and stored them into a CSV file. Re-factored Java code to load a large CSV file into a database re-writing all the Java logic in SQL. Created, developed, and launched a website written mainly in PHP which retrieves information stored in a MySQL database in a simple yet quick manner. \\
 \mbox{\small\tt https://github.com/mjw56/webScrape}\\
 \mbox{\small\tt cs336-41.rutgers.edu}
 \end{category}
@@ -113,7 +114,7 @@ steveg@fifthroomcreative.com\\
 
 \begin{category}{Interests}
 \citemnobullet
-Baseball, Running, Music, Web Development, Arduino projects.
+Running, Music, Web Development, Arduino.
 \end{category}
 
 \end{document}
